@@ -1,0 +1,5 @@
+--- !tapi-tbd
+tbd-version: 4
+targets: [ arm64-ios, arm64-ios-simulator, arm64-tvos, arm64-tvos-simulator, arm64-watchos, arm64-watchos-simulator, arm64e-ios, arm64e-ios-simulator, arm64e-tvos, arm64e-tvos-simulator, arm64e-watchos, arm64e-watchos-simulator, armv7-ios, armv7-ios-simulator, armv7-tvos, armv7-tvos-simulator, armv7-watchos, armv7-watchos-simulator, armv7s-ios, armv7s-ios-simulator, armv7s-tvos, armv7s-tvos-simulator, armv7s-watchos, armv7s-watchos-simulator ]
+install-name: '/System/Library/Frameworks/Foundation.framework/Foundation'
+...

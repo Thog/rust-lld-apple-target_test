@@ -1,0 +1,29 @@
+[build]
+target = "aarch64-apple-ios"
+
+[target.armv7-apple-ios]
+linker = "rust-lld"
+
+[target.armv7s-apple-ios]
+linker = "rust-lld"
+
+[target.aarch64-apple-ios]
+linker = "rust-lld"
+
+[target.aarch64-apple-ios-sim]
+linker = "rust-lld"
+
+[target.aarch64-apple-tvos]
+linker = "rust-lld"
+
+[target.armv7k-apple-watchos]
+linker = "rust-lld"
+
+[target.aarch64-apple-watchos]
+linker = "rust-lld"
+
+[target.arm64_32-apple-watchos]
+linker = "rust-lld"
+
+[env]
+SDKROOT = { value = "fakesdk", relative = true, force = true }
